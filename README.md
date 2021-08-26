@@ -1,5 +1,6 @@
-# DELL-latitude-7285-OS-X
-# Dell Latitude 7285 HD615 iGPU CLOVER and Open Core
+# D-Tech-Pro - Dell Latitude 7285 Hackintosh
+
+# Clover Bootloader
 
 ## Specifics
 
