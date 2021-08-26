@@ -7,9 +7,9 @@
 - Graphics : Intel® HD Graphics 615
 - Sound : Realtek ALC3253 (ALC225)
 - Display : 12.3 Inch 2880 X 1920 (WUXGA+) 3:2 10 Points Multi Touch
-- Memory : Micron LPDDR3 16GB 1867MHZ (8GB * 2 Dual Channel)
-- SSD : PM971 NVEM Samsung 256GB (2230), TOSHIBA KXG60ZMV512G 512GB (2240) (WWAN Slot * 1)
-- Wireless : BCM9435AZE(DW1820) (WLAN Slot * 1)
+- Memory : Micron LPDDR3 8GB 1867MHZ (8GB * 2 Dual Channel)
+- SSD : PM971 NVEM Samsung 128GB (2230)
+- Wireless : BCM9435AZE(DW1560) (WLAN Slot * 1)
 - Battery : 32WHr(Bluid in) + 22WHr(Keyboard) 
 
 
@@ -17,8 +17,7 @@
 
 - BIOS : 1.7.0
 - Clover Bootloader : Above v5.0
-- Open Core : 0.61
-- macOS : 10.15.X
+- macOS : 10.15.7
 
 
 ## BIOS Setup
@@ -42,7 +41,7 @@
 ***Graphics/Display***
 - Intel® HD Graphics 615 QE/CI, 2048MB vRam
 - Type C DP 2 ports Video/Audio output Hot Swap(Open Core not work)
-- Thunderbolt Display output(Open Core not work)
+- Thunderbolt Display output
 - Brightness control
 - Sidecar
 
@@ -60,13 +59,13 @@
 
 ***Power Management***
 - CPU/Speed Step
-- Battery
+- Battery (Shows as 1 Battery and Charges as such)
 - Type C PD 2 Ports Charging, PowerShare
 
 ***USB, Storage***
 - Full Size/Type C USB 2.0, 3.0 Hot Swap
 - m.2 NVME 2230 1 Slot and m.2 NVME 2230(2242) 1 Slot
-- Thunderbolt 3 (Open Core not work)
+- Thunderbolt 3 
 - Thunderbolt 3 Test with RX560 egpu and DELL WD15 TD15 dock
 
 ***Wireless Communication***
