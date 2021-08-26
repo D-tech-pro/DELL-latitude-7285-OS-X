@@ -1,0 +1,204 @@
+11:740  0:012  Found BIOS RSDP at F0000
+11:740  0:000  Printing ACPI tables from RSDP F0000 ...
+11:740  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:740  0:000    (Xsdt: 47FE30C0, Rsdt: 47FE3028)
+11:740  0:000    47FE30C0: 'XSDT', 'CBX3', Rev: 1, Len: 252
+11:740  0:000    47FE3028: 'RSDT', 'CBX3', Rev: 1, Len: 144
+11:740  0:000    Tables in Xsdt: 27
+11:740  0:000    0. 4800CD80: 'FACP', 'CBX3', Rev: 5, Len: 268
+11:740  0:000        (Dsdt: 47FE3248, Facs: 48952E80, XDsdt: 47FE3248, XFacs: 0)
+11:740  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:742  0:001        48952E80: 'FACS', Ver: 2, Len: 64
+11:742  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:742  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:742  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:742  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:742  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:742  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:742  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:742  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:742  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:742  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:742  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:742  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:742  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:742  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:742  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:742  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:742  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:742  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:742  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:742  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:742  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:742  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:742  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:742  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:742  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:742  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160
+11:742  0:000    Tables in Rsdt: 27
+11:742  0:000    0. 47FE31C0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:742  0:000        (Dsdt: 47FE3248, Facs: 48952E40)
+11:742  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:743  0:001        48952E40: 'FACS', Ver: 0, Len: 64
+11:743  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:743  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:743  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:743  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:743  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:743  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:743  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:743  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:743  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:743  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:743  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:743  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:743  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:743  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:743  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:743  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:743  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:743  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:743  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:743  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:743  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:743  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:743  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:743  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:743  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:743  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160
+11:743  0:000  Found UEFI Acpi 2.0 RSDP at 47FE3000
+11:743  0:000  Saving ACPI tables from RSDP 47FE3000 to EFI\CLOVER\ACPI\origin ...
+11:743  0:000   47FE3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:754  0:011    (Xsdt: 47FE30C0, Rsdt: 47FE3028)
+11:754  0:000    47FE30C0: 'XSDT', 'CBX3', Rev: 1, Len: 252 -> XSDT.aml
+11:765  0:010    47FE3028: 'RSDT', 'CBX3', Rev: 1, Len: 144 -> RSDT.aml
+11:776  0:011    Tables in Xsdt: 27
+11:776  0:000    0. 4800CD80: 'FACP', 'CBX3', Rev: 5, Len: 268 -> FACP.aml
+11:789  0:012        (Dsdt: 47FE3248, Facs: 48952E80, XDsdt: 47FE3248, XFacs: 0)
+11:789  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:790  0:001        48952E80: 'FACS', Ver: 2, Len: 64
+11:790  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:790  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:790  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:790  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:790  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:790  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:790  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:790  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:790  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:790  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:790  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:790  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:790  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:790  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:790  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:790  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:790  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:790  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:790  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:790  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:790  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:790  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:790  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:790  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:790  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:790  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160
+11:790  0:000    Tables in Rsdt: 27
+11:790  0:000    0. 47FE31C0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:790  0:000        (Dsdt: 47FE3248, Facs: 48952E40)
+11:790  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:792  0:001        48952E40: 'FACS', Ver: 0, Len: 64
+11:792  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:792  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:792  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:792  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:792  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:792  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:792  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:792  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:792  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:792  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:792  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:792  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:792  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:792  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:792  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:792  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:792  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:792  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:792  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:792  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:792  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:792  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:792  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:792  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:792  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:792  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160
+11:792  0:000  Found UEFI Acpi 1.0 RSDP at 47FE3000
+11:792  0:000  Printing ACPI tables from RSDP 47FE3000 ...
+11:792  0:000   47FE3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:792  0:000    (Xsdt: 47FE30C0, Rsdt: 47FE3028)
+11:792  0:000    47FE30C0: 'XSDT', 'CBX3', Rev: 1, Len: 252
+11:792  0:000    47FE3028: 'RSDT', 'CBX3', Rev: 1, Len: 144
+11:792  0:000    Tables in Xsdt: 27
+11:792  0:000    0. 4800CD80: 'FACP', 'CBX3', Rev: 5, Len: 268
+11:792  0:000        (Dsdt: 47FE3248, Facs: 48952E80, XDsdt: 47FE3248, XFacs: 0)
+11:792  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:794  0:001        48952E80: 'FACS', Ver: 2, Len: 64
+11:794  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:794  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:794  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:794  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:794  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:794  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:794  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:794  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:794  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:794  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:794  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:794  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:794  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:794  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:794  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:794  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:794  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:794  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:794  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:794  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:794  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:794  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:794  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:794  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:794  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:794  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160
+11:794  0:000    Tables in Rsdt: 27
+11:794  0:000    0. 47FE31C0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:794  0:000        (Dsdt: 47FE3248, Facs: 48952E40)
+11:794  0:000        47FE3248: 'DSDT', 'CBX3', Rev: 2, Len: 170808
+11:795  0:001        48952E40: 'FACS', Ver: 0, Len: 64
+11:795  0:000    1. 4800CE90: 'APIC', 'CBX3', Rev: 3, Len: 132
+11:795  0:000    2. 4800CF18: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:795  0:000    3. 4800CF60: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:795  0:000    4. 4800D010: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:795  0:000    5. 4800D050: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:795  0:000    6. 4800D088: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+11:795  0:000    7. 4800D3E8: 'SSDT', 'SaSsdt', Rev: 2, Len: 4862
+11:795  0:000    8. 4800E6E8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:795  0:000    9. 4800E720: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 1620
+11:795  0:000    10. 4800ED78: 'UEFI', '', Rev: 1, Len: 66
+11:795  0:000    11. 4800EDC0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:795  0:000    12. 4800FCA0: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:795  0:000    13. 4800FD38: 'SSDT', 'HdaDsp', Rev: 2, Len: 387
+11:795  0:000    14. 4800FEC0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:795  0:000    15. 48010160: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+11:795  0:000    16. 48013168: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:795  0:000    17. 48013680: 'DBGP', '', Rev: 1, Len: 52
+11:795  0:000    18. 480136B8: 'DBG2', '', Rev: 0, Len: 84
+11:795  0:000    19. 48013710: 'SSDT', 'UsbCTabl', Rev: 2, Len: 2006
+11:795  0:000    20. 48013EE8: 'SSDT', 'DptfTabl', Rev: 2, Len: 29492
+11:795  0:000    21. 4801B220: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:795  0:000    22. 4801B278: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:795  0:000    23. 4801B3F0: 'NHLT', 'EDK2', Rev: 0, Len: 45
+11:795  0:000    24. 4801B420: 'BGRT', '', Rev: 0, Len: 56
+11:795  0:000    25. 4801B458: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:795  0:000    26. 4801B490: 'ASF!', ' HCG', Rev: 32, Len: 160

@@ -1,0 +1,759 @@
+0:100  0:100  MemLog inited, TSC freq: 1608259840
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 26.8.2021,  15:0:58 (GMT)
+0:100  0:000  Starting Clover revision: 5098 (master, commit 58649391) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(1,GPT,109F66A4-FD5B-4D92-BC82-826FC651D089,0x28,0x64000) @44D0F618
+0:100  0:000  SelfDirPath = EFI\boot
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 2
+0:102  0:000  Type 17 Index = 0
+0:102  0:000  SmbiosTable.Type17->Speed = 1867MHz
+0:102  0:000  SmbiosTable.Type17->Size = 4096MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 System Board Memory
+0:102  0:000  SmbiosTable.Type17->Vendor = SK Hynix
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = H9CCNNNCLTALAR-NTD
+0:102  0:000  Type 17 Index = 1
+0:102  0:000  SmbiosTable.Type17->Speed = 1867MHz
+0:102  0:000  SmbiosTable.Type17->Size = 4096MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 System Board Memory
+0:102  0:000  SmbiosTable.Type17->Vendor = SK Hynix
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = H9CCNNNCLTALAR-NTD
+0:102  0:000  Boot status=0
+0:102  0:000  Running on: 'Latitude 7285' with board '0M2PP1'
+0:102  0:000  === [ GetCPUProperties ] ==================================
+0:102  0:000  CPU Vendor = 756E6547 Model=806E9
+0:102  0:000   The CPU supported SSE4.1
+0:102  0:000  BrandString = Intel(R) Core(TM) i5-7Y57 CPU @ 1.20GHz
+0:102  0:000   The CPU supported turbo
+0:102  0:000  MSR 0x35               20004
+0:102  0:000   TSC/CCC Information Leaf:
+0:102  0:000    numerator     : 134
+0:102  0:000    denominator   : 2
+0:102  0:000   Calibrated ARTFrequency: 24003878
+0:102  0:000   Rounded ARTFrequency: 24000000
+0:102  0:000  MSR 0xE2 before patch 1E000008
+0:102  0:000  MSR 0xCE              0804043D_F1011000
+0:102  0:000  corrected FLEX_RATIO = 0
+0:102  0:000  MSR 0x1B0             00000000
+0:102  0:000  FSBFrequency = 75 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:102  0:000  MaxDiv/MinDiv: 16.0/4
+0:102  0:000  Turbo: 29/29/29/33
+0:102  0:000  Features: 0xBFEBFBFF
+0:102  0:000  Threads: 4
+0:102  0:000  Cores: 2
+0:102  0:000  FSB: 100 MHz
+0:102  0:000  CPU: 1200 MHz
+0:102  0:000  TSC: 1200 MHz
+0:102  0:000  PIS: 100 MHz
+0:102  0:000  ExternalClock: 25 MHz
+0:102  0:000  === [ GetDevices ] ========================================
+0:102  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80011400)
+0:102  0:000  PCI (00|00:00.00) : 8086 590C class=060000
+0:102  0:000  PCI (00|00:02.00) : 8086 591E class=030000
+0:102  0:000   - GOP: Provided by device
+0:102  0:000   - GFX: Model=Intel HD Graphics 615 (Intel)
+0:102  0:000  PCI (00|00:04.00) : 8086 1903 class=118000
+0:102  0:000  PCI (00|00:05.00) : 8086 1919 class=048000
+0:102  0:000  PCI (00|00:13.00) : 8086 9D35 class=000000
+0:102  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:102  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:102  0:000  PCI (00|00:14.03) : 8086 9D32 class=048000
+0:102  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:102  0:000  PCI (00|00:15.01) : 8086 9D61 class=118000
+0:102  0:000  PCI (00|00:15.02) : 8086 9D62 class=118000
+0:102  0:000  PCI (00|00:15.03) : 8086 9D63 class=118000
+0:102  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:102  0:000  PCI (00|00:16.03) : 8086 9D3D class=070002
+0:102  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:102  0:000  PCI (00|01:00.00) : 8086 15D3 class=060400
+0:102  0:000  PCI (00|02:00.00) : 8086 15D3 class=060400
+0:102  0:000  PCI (00|03:00.00) : FFFF FFFF class=FFFFFF
+0:102  0:000  PCI (00|02:01.00) : 8086 15D3 class=060400
+0:102  0:000  PCI (00|02:02.00) : 8086 15D3 class=060400
+0:102  0:000  PCI (00|37:00.00) : 8086 15D4 class=0C0330
+0:102  0:000  PCI (00|02:04.00) : 8086 15D3 class=060400
+0:102  0:000  PCI (00|00:1C.04) : 8086 9D14 class=060400
+0:102  0:000  PCI (00|6C:00.00) : 144D A806 class=010802
+0:102  0:000  PCI (00|00:1D.00) : 8086 9D19 class=060400
+0:102  0:000  PCI (00|6D:00.00) : 14E4 43B1 class=028000
+0:102  0:000   - WIFI: Vendor=Broadcom
+0:102  0:000  PCI (00|00:1F.00) : 8086 9D4B class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:102  0:000  PCI (00|00:1F.03) : 8086 9D71 class=040380
+0:102  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:103  0:000  === [ GetDefaultSettings ] ================================
+0:103  0:000  Clover load options size = 264 bytes
+0:104  0:001  EFI\CLOVER\.plist not loaded with name from LoadOptions: Invalid Parameter
+0:112  0:008  EFI\CLOVER\config.plist loaded: Success
+0:112  0:000  === [ GetListOfThemes ] ===================================
+0:112  0:000  - [00]: Beauty
+0:114  0:001  - [01]: random
+0:115  0:000  - [01]: embedded
+0:115  0:000  - [01]: Hexagon
+0:116  0:001  - [02]: mac_s
+0:118  0:001  === [ Found config plists ] ===============================
+0:119  0:001  - config.plist
+0:119  0:000  - config1.plist
+0:120  0:000  === [ GetEarlyUserSettings ] ==============================
+0:120  0:000  timeout set to 3
+0:120  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:120  0:000  KextsToPatch: 5 requested
+0:120  0:000   - [00]: AppleGPUWrangler (AppleGPUWrangler Discrete Patch (c) egpu.io [goalque]) :: BinPatch :: data len: 14
+0:120  0:000   - [01]: IOGraphicsFamily (IOGraphicsFamily Patch (c) egpu.io [goalque]) :: BinPatch :: data len: 14
+0:120  0:000   - [02]: AppleGraphicsDevicePolicy (Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha) :: BinPatch :: data len: 8
+0:120  0:000   - [03]: com.apple.iokit.IOUSBHostFamily (USB Port limit patch #1/2 10.15.x (credit DalianSky)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:120  0:000   - [04]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #2/2 10.15.x (credit DalianSky)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:120  0:000  Default theme: mac_s
+0:120  0:000  Hiding entries with string install
+0:120  0:000  Hiding entries with string preboot
+0:120  0:000  Hiding entries with string recovery
+0:120  0:000  Hiding entries with string filevault prebooter
+0:120  0:000  === [ LoadDrivers ] =======================================
+0:121  0:000  Loading FSInject.efi  status=Success
+0:134  0:013  Loading UsbKbDxe.efi  status=Success
+0:145  0:010   - driver needs connecting
+0:145  0:000  Loading HFSPlus.efi  status=Success
+0:157  0:011   - driver needs connecting
+0:157  0:000  Loading VirtualSmc.efi  status=Success
+0:269  0:112  Loading Ps2MouseDxe.efi  status=Success
+0:282  0:013   - driver needs connecting
+0:282  0:000  Loading EmuVariableUefi.efi  status=Success
+0:294  0:011  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:294  0:000  Loading DataHubDxe.efi  status=Success
+0:325  0:031  Loading ApfsDriverLoader.efi  status=Success
+0:437  0:111   - driver needs connecting
+0:437  0:000  Loading AudioDxe.efi  status=Success
+0:452  0:014   - driver needs connecting
+0:452  0:000  Loading AptioMemoryFix.efi  status=Success
+0:564  0:111  Loading AptioInputFix.efi  status=Success
+0:577  0:013  Loading CsmVideoDxe.efi  status=Success
+0:589  0:011   - driver needs connecting
+0:589  0:000  Loading TbtForcePower.efi  status=Success
+0:600  0:011  6 drivers needs connecting ...
+0:600  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:600  0:000  HFS+ driver loaded
+0:600  0:000  APFS driver loaded
+0:600  0:000  Video driver loaded: disconnect Success
+1:469  0:868  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+7:359  5:890  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+7:384  0:024  === [ InitScreen ] ========================================
+7:384  0:000  Console modes reported: 4, available modes:
+7:384  0:000   - [01]: 80x25
+7:384  0:000   - [02]: 80x50
+7:384  0:000   - [03]: 100x31
+7:384  0:000   - [04]: 360x101 (current mode)
+7:384  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(1,GPT,109F66A4-FD5B-4D92-BC82-826FC651D089,0x28,0x64000)
+7:386  0:002  Using embedded font: Success
+7:389  0:002  === [ GetMacAddress ] =====================================
+7:389  0:000  === [ ScanSPD ] ===========================================
+7:389  0:000  Scanning SMBus [8086:9D23], mmio: 0xEC840004, ioport: 0xF040, hostc: 0x11
+7:391  0:001  === [ GetAcpiTablesList ] =================================
+7:391  0:000  Get Acpi Tables List from RSDT:
+7:391  0:000   - [00]: FACP  CBX3    len=132
+7:391  0:000   - [01]: APIC  CBX3    len=132
+7:391  0:000   - [02]: FPDT  CBX3    len=68
+7:391  0:000   - [03]: FIDT  CBX3    len=172
+7:391  0:000   - [04]: MCFG  CBX3    len=60
+7:391  0:000   - [05]: HPET  CBX3    len=56
+7:391  0:000   - [06]: SSDT  SataTabl len=857
+7:391  0:000   - [07]: SSDT  SaSsdt  len=4862
+7:391  0:000   - [08]: HPET  KBL-ULT len=56
+7:391  0:000   - [09]: SSDT  xh_OEMBD len=1620
+7:391  0:000   - [10]: UEFI   len=66
+7:391  0:000   - [11]: SSDT  CpuSsdt len=3806
+7:391  0:000   - [12]: LPIT  KBL-ULT len=148
+7:391  0:000   - [13]: SSDT  HdaDsp len=387
+7:391  0:000   - [14]: SSDT  sensrhub len=671
+7:391  0:000   - [15]: SSDT  PtidDevc len=12290
+7:391  0:000   - [16]: SSDT  TbtTypeC len=1303
+7:391  0:000   - [17]: DBGP   len=52
+7:391  0:000   - [18]: DBG2   len=84
+7:391  0:000   - [19]: SSDT  UsbCTabl len=2006
+7:391  0:000   - [20]: SSDT  DptfTabl len=29492
+7:391  0:000   - [21]: MSDM  CBX3    len=85
+7:391  0:000   - [22]: SLIC  CBX3    len=374
+7:391  0:000   - [23]: NHLT  EDK2     len=45
+7:391  0:000   - [24]: BGRT   len=56
+7:391  0:000   - [25]: TPM2  Tpm2Tabl len=52
+7:391  0:000   - [26]: ASF!   HCG len=160
+7:391  0:000  Calibrated TSC Frequency = 1608259840 = 1608MHz
+7:391  0:000  === [ GetUserSettings ] ===================================
+7:391  0:000  Add 19 devices:
+7:392  0:000  USB FixOwnership: no
+7:392  0:000   - final DSDT Fix mask=00000000
+7:392  0:000  PatchesDSDT: 16 requested
+7:392  0:000   - [00]: (change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [01]: (Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+7:392  0:000   - [02]: (Rename ECDV to EC__) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [03]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [04]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [05]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [06]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [07]: (change _STA to XSTA IN GPIO) lenToFind: 4, lenToReplace: 4, Target Bridge: GPI0
+7:392  0:000   - [08]: (change PEGP to GFX0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [09]: (change gprw to xprw) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:392  0:000    patch disabled at config
+7:392  0:000   - [10]: (change OSID to XSID (to avoid match against _OSI XOSI patch)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000   - [11]: ( _LID TO XLID) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:392  0:000   - [12]: (BTNV TO XTNV(DELL)) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:392  0:000   - [13]: (BAT1 TO XBAT) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+7:392  0:000    patch disabled at config
+7:392  0:000   - [14]: (BTEV to XTEV) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:392  0:000   - [15]: (CBAT TO XBAT) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+7:392  0:000  Using ProductName from config: MacBookAir8,2
+7:392  0:000  Using latest BiosVersion from config
+7:392  0:000  BiosVersion: MBA82.88Z.F000.B00.2107050207
+7:392  0:000  BiosReleaseDate: 07/05/2021
+7:392  0:000  Using latest EfiVersion from config: 1715.0.57.0.0
+7:392  0:000  Using FirmwareFeatures from config: 0xFD8FF42E
+7:392  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+7:392  0:000  Board-ID set from config as Mac-226CB3C6A851A671
+7:392  0:000  BoardType: 0xA
+7:392  0:000  ChassisType: 0x9
+7:393  0:000  Converted CustomUUID 86C8DCA6-E3C2-4FAA-826F-B87E48CF30AC
+7:394  0:000  === [ Found DSDT tables ] =================================
+8:478  1:084  === [ ScanVolumes ] =======================================
+8:478  0:000  Found 10 volumes with blockIO
+8:478  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x6,0x0)
+8:478  0:000          USB volume
+8:478  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x6,0x0)\HD(1,MBR,0x00000000,0x2000,0x39EE000)
+8:479  0:000          USB volume
+8:479  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)
+8:479  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(1,GPT,109F66A4-FD5B-4D92-BC82-826FC651D089,0x28,0x64000)
+8:479  0:000          Result of bootcode detection: bootable unknown (legacy)
+8:480  0:000          This is SelfVolume !!
+8:480  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)
+8:480  0:000          Result of bootcode detection: bootable unknown (legacy)
+8:480  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E27A0F5FDF91F5428D897CDB8C4115CC)
+8:480  0:000          hiding this volume
+8:480  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,DC0F1E6CCF278036A4DD18A622E4791D)
+8:480  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1268D15C4844B14F81ACFE5A14D2C74A)
+8:480  0:000          hiding this volume
+8:480  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D99A7B3D8526744D9A4BCCC0EB31E07D)
+8:480  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1C,0x4)\Pci(0x0,0x0)\NVMe(0x1,44-27-A0-76-E0-38-25-00)\HD(2,GPT,C9B189A5-6DD3-4022-9F13-2463025923F3,0x64028,0xEDD8260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D26E25C7D6DD024C9FDFEC6E1CE064AB)
+8:481  0:000  PutNvramPlistToRtVars: nvram.plist not found
+8:481  0:000  found 2 handles with audio
+8:481  0:000  No AudioIoDevice stored
+8:481  0:000  no stored audio parameters
+8:481  0:000  === [ InitTheme ] =========================================
+8:481  0:000  use daylight theme
+8:492  0:011  Using theme 'mac_s' (EFI\CLOVER\themes\mac_s)
+8:492  0:000  file sound read: sound.wav Not Found
+8:494  0:001  Loading font from ThemeDir: Success
+8:494  0:000  theme inited
+8:494  0:000  Chosen theme mac_s
+8:494  0:000  after NVRAM boot-args=dart=0 kext-dev-mode=1 -cdfon brcmfx-country=#a brcmfx-driver=1 enable-hdmi20 -disablegfxfirmware igfxonln=1 slide=0 darkwake=4 agdpmod=pikera radpg=15 keepsyms=1 swd_panic=1
+8:494  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+8:494  0:000  found AppleSMC protocol
+8:494  0:000  === [ ScanLoader ] ========================================
+8:494  0:000  - [01]: ''
+8:494  0:000          AddLoaderEntry for Volume Name=
+8:494  0:000          skipped because entry is hidden
+8:494  0:000  - [03]: 'EFI'
+8:496  0:001          AddLoaderEntry for Volume Name=EFI
+8:496  0:000          skipped because entry is hidden
+8:496  0:000  - [05]: 'Preboot', hidden
+8:496  0:000  - [06]: 'Untitled - Data'
+8:498  0:001          AddLoaderEntry for Volume Name=Untitled - Data
+8:498  0:000          hiding entry: \macOS Install Data\Locked Files\Boot Files\boot.efi
+8:498  0:000  - [07]: 'Recovery', hidden
+8:498  0:000  - [08]: 'VM'
+8:499  0:000  - [09]: 'Untitled'
+8:503  0:003          AddLoaderEntry for Volume Name=Untitled
+8:506  0:003      hibernated: set as never
+8:507  0:001          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\mac_s)
+8:508  0:001  === [ AddCustomTool ] =====================================
+8:509  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+8:509  0:000  Checking EFI partition Volume 3 for Clover
+8:510  0:000   Found Clover
+8:510  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+8:512  0:001  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+8:535  0:022  === [ GetEfiBootDeviceFromNvram ] =========================
+8:535  0:000  Default boot entry not found
+8:535  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+8:535  0:000  DefaultIndex=-1 and MainMenu.EntryCount=7
+9:100  0:565  GUI ready
+22:102  13:002  exit from MainMenu 1
+29:557  7:454  exit from MainMenu 7
+31:262  1:705  exit from MainMenu 7
+36:200  4:937  === [ FixBiosDsdt ] =======================================
+36:201  0:000  Patching DSDT:
+36:201  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (B2AD) (8) (1A10F) ]
+36:201  0:000   - [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, patched at: [ (291DD) ]
+36:201  0:000   - [Rename ECDV to EC__]: pattern 45434456, patched at: [ (7FE) (16) (24) (16) (46) (16) (16) (28) (16) (16) (16) (26892) (D69) (3E) (1C) (1B) (460) (14) (A0) (15) (19) (18) (1D) (19) (18) (1D) (15) (19) (18) (16) (9C) (15) (3F) (15) (5F) (18) (A8C) (123) (1D3) (5B9) ]
+36:201  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (30C) (12) (12) (AD08) (1584) (84) (D) (2B) (32) (4F) (6F) (C3) (10DC0) (1427) ]
+36:202  0:000   - [change HECI to IMEI]: pattern 48454349, patched at: [ (10F04) ]
+36:202  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (51) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (6A) (12) (34E) (12) (50) (1CA) (12) (1D) (353D) (DADC) (1B) (DC9) (A) (FBA) (27) (2BF4) (14) (71F9) (1578) (8109) (2EE7) (18) (18) (32) (11) (65) (32) (55) ]
+36:202  0:000   - [change _OSI to XOSI]: pattern 5F4F5349, patched at: [ (3B32) (5) (E) (62C9) (8530) (3) (18) (1C) (1C) (1A) (18) (18) (18) (18) (18) (78) (5) (E) (14463) (3) (D) (D) (D) (13) (14) (1F88) ]
+36:202  0:000   - [change _STA to XSTA IN GPIO]: - [change PEGP to GFX0]: pattern 50454750, patched at: [ (60A) (38E6) (31) (31) (10B10) ]
+36:203  0:000   - [change gprw to xprw]: disabled
+36:203  0:000   - [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, patched at: [ (26939) (E2) (F) (679) (189C) ]
+36:204  0:000   - [ _LID TO XLID]: pattern 5F4C4944, patched at: [ (28C31) ]
+36:204  0:000   - [BTNV TO XTNV(DELL)]: pattern 42544E56, patched at: [ (28CB0) ]
+36:204  0:000   - [BAT1 TO XBAT]: disabled
+36:204  0:000   - [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+36:204  0:000   - [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+36:204  0:000    0 replacements
+36:219  0:014  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-0.aml
+37:612  1:393  exit from MainMenu 1
+37:612  0:000  Boot option Boot0000 not found
+37:612  0:000  === [ StartLoader ] =======================================
+37:612  0:000  Finally: ExternalClock=26MHz BusSpeed=100517kHz CPUFreq=-4294965688MHz PIS: hw.busfrequency=104000000Hz
+37:613  0:000  Loading boot.efi  status=Success
+37:737  0:124  GetOSVersion: 10.15.7 (19H1323)
+37:737  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+37:737  0:000  Filtering KextPatches:
+37:737  0:000   - [00]: AppleGPUWrangler (AppleGPUWrangler Discrete Patch (c) egpu.io [goalque]) :: BinPatch :: [OS: 10.15.7 | MatchOS: All | MatchBuild: All] ==> allowed
+37:737  0:000   - [01]: IOGraphicsFamily (IOGraphicsFamily Patch (c) egpu.io [goalque]) :: BinPatch :: [OS: 10.15.7 | MatchOS: All | MatchBuild: All] ==> allowed
+37:737  0:000   - [02]: AppleGraphicsDevicePolicy (Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha) :: BinPatch :: [OS: 10.15.7 | MatchOS: All | MatchBuild: All] ==> allowed
+37:737  0:000   - [03]: com.apple.iokit.IOUSBHostFamily (USB Port limit patch #1/2 10.15.x (credit DalianSky)) :: BinPatch :: [OS: 10.15.7 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+37:737  0:000   - [04]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #2/2 10.15.x (credit DalianSky)) :: BinPatch :: [OS: 10.15.7 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+37:737  0:000  Will not patch boot.efi
+37:737  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+37:761  0:023  === [ PatchSmbios ] =======================================
+37:761  0:000  insert table 9 for dev 0:0
+37:761  0:000  Table 11 present, but rewritten for us
+37:761  0:000  Trusting SMBIOS...
+37:761  0:000  Detected alternating SMBIOS channel banks
+37:761  0:000  Channels: 2
+37:761  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+37:761  0:000   partNum=H9CCNNNCLTALAR-NTD
+37:761  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+37:761  0:000  BANK 0 DIMM0 1867MHz 4096MB
+37:761  0:000   partNum=H9CCNNNCLTALAR-NTD
+37:761  0:000  SMBIOS Type 17 Index = 1 => 1 2:
+37:762  0:000  BANK 1 DIMM0 1867MHz 4096MB
+37:762  0:000  mTotalSystemMemory = 8192
+37:762  0:000  NumberOfMemoryDevices = 2
+37:762  0:000  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+37:762  0:000  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+37:762  0:000  Table 131 is present, CPUType=35
+37:762  0:000  Change to: 605
+37:762  0:000  === [ PatchACPI ] =========================================
+37:762  0:000  Xsdt reallocation done
+37:762  0:000  old FADT length=10C
+37:762  0:000   SignatureFixup: 0x192AA4C -> 0x0
+37:762  0:000  Apply DsdtFixMask=0x00000000
+37:762  0:000     drop _DSM mask=0xFFFF
+37:762  0:000  === [ FixBiosDsdt ] =======================================
+37:762  0:000  Patching DSDT:
+37:762  0:000   - [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, patched at: [ (B2AD) (8) (1A10F) ]
+37:763  0:000   - [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, patched at: [ (291DD) ]
+37:763  0:000   - [Rename ECDV to EC__]: pattern 45434456, patched at: [ (7FE) (16) (24) (16) (46) (16) (16) (28) (16) (16) (16) (26892) (D69) (3E) (1C) (1B) (460) (14) (A0) (15) (19) (18) (1D) (19) (18) (1D) (15) (19) (18) (16) (9C) (15) (3F) (15) (5F) (18) (A8C) (123) (1D3) (5B9) ]
+37:763  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (30C) (12) (12) (AD08) (1584) (84) (D) (2B) (32) (4F) (6F) (C3) (10DC0) (1427) ]
+37:763  0:000   - [change HECI to IMEI]: pattern 48454349, patched at: [ (10F04) ]
+37:763  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (51) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (12) (6A) (12) (34E) (12) (50) (1CA) (12) (1D) (353D) (DADC) (1B) (DC9) (A) (FBA) (27) (2BF4) (14) (71F9) (1578) (8109) (2EE7) (18) (18) (32) (11) (65) (32) (55) ]
+37:764  0:000   - [change _OSI to XOSI]: pattern 5F4F5349, patched at: [ (3B32) (5) (E) (62C9) (8530) (3) (18) (1C) (1C) (1A) (18) (18) (18) (18) (18) (78) (5) (E) (14463) (3) (D) (D) (D) (13) (14) (1F88) ]
+37:764  0:000   - [change _STA to XSTA IN GPIO]: - [change PEGP to GFX0]: pattern 50454750, patched at: [ (60A) (38E6) (31) (31) (10B10) ]
+37:765  0:000   - [change gprw to xprw]: disabled
+37:765  0:000   - [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, patched at: [ (26939) (E2) (F) (679) (189C) ]
+37:765  0:000   - [ _LID TO XLID]: pattern 5F4C4944, patched at: [ (28C31) ]
+37:765  0:000   - [BTNV TO XTNV(DELL)]: pattern 42544E56, patched at: [ (28CB0) ]
+37:766  0:000   - [BAT1 TO XBAT]: disabled
+37:766  0:000   - [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:766  0:000   - [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:766  0:000    0 replacements
+37:767  0:000  PreCleanup XSDT: count=27, length=252
+37:767  0:000  PreCleanup XSDT, corrected XSDT: count=27, length=252
+37:767  0:000  === [ ACPIPatchedAML ] ====================================
+37:767  0:000  AutoMerge pass 1
+37:767  0:000  Unsorted
+37:767  0:000  Inserting SSDT-BATC.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-SleepKeyLID0-BTNV-dell.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-GPI0.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-PNLF.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-SleepDefine.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-USBX.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-UPRW.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-DTPG.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-TB3-V8.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-XOSI.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-EC.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-GPRW.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-Sleep_SB.LID0.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-UIAC.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-XCPM.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  Inserting SSDT-ALS0.aml from EFI\CLOVER\ACPI\patched: ignore on pass 1
+37:767  0:000  === [ ACPIDropTables ] ====================================
+37:767  0:000  Patching SSDT SataTabl Length=857
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, bin not found / already patched!
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:767  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:767  0:000    0 replacements
+37:767  0:000  Patching SSDT SaSsdt  Length=4862
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (2D) (54) (29F) (871) (1D) (6E2) ]
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, patched at: [ (1282) (33) ]
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:767  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:767  0:000    0 replacements
+37:767  0:000  Found OperationRegion(SANV, SystemMemory, 48952118, ...)
+37:767  0:000  Patching SSDT xh_OEMBD Length=1620
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, bin not found / already patched!
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:767  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:767  0:000    0 replacements
+37:767  0:000  Patching SSDT CpuSsdt Length=3806
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, bin not found / already patched!
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:767  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:767  0:000    0 replacements
+37:767  0:000  Found OperationRegion(PNVS, SystemMemory, 359A8000, ...)
+37:767  0:000  Patching SSDT HdaDsp Length=387
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, patched at: [ (20) (48) ]
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, bin not found / already patched!
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:767  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:767  0:000    0 replacements
+37:767  0:000  Patching SSDT sensrhub Length=671
+37:767  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:767  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:767  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:767  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:767  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:767  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:767  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:767  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, patched at: [ (87) ]
+37:767  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:767  0:000  9. [change gprw to xprw]: disabled
+37:767  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:767  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:767  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:767  0:000  13. [BAT1 TO XBAT]: disabled
+37:767  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:768  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:768  0:000    0 replacements
+37:768  0:000  Patching SSDT PtidDevc Length=12290
+37:768  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:768  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:768  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:768  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:768  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:768  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:768  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:768  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, patched at: [ (942) ]
+37:768  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:768  0:000  9. [change gprw to xprw]: disabled
+37:768  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:768  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:768  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:768  0:000  13. [BAT1 TO XBAT]: disabled
+37:768  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:768  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:768  0:000    0 replacements
+37:768  0:000  Patching SSDT TbtTypeC Length=1303
+37:768  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:768  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:768  0:000  2. [Rename ECDV to EC__]: pattern 45434456, bin not found / already patched!
+37:768  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:768  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:768  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:768  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:768  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, bin not found / already patched!
+37:768  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:768  0:000  9. [change gprw to xprw]: disabled
+37:768  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:768  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:768  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:768  0:000  13. [BAT1 TO XBAT]: disabled
+37:768  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:768  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:768  0:000    0 replacements
+37:768  0:000  Patching SSDT UsbCTabl Length=2006
+37:768  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:768  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:768  0:000  2. [Rename ECDV to EC__]: pattern 45434456, patched at: [ (51) (12) (566) ]
+37:768  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:768  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:768  0:000  5. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+37:768  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:768  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, patched at: [ (20B) ]
+37:768  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:768  0:000  9. [change gprw to xprw]: disabled
+37:768  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:768  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:768  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:768  0:000  13. [BAT1 TO XBAT]: disabled
+37:768  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:768  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:768  0:000    0 replacements
+37:768  0:000  Patching SSDT DptfTabl Length=29492
+37:768  0:000  0. [change LPC to LPCB, optionally pair with SSDT-EHCI_Disable.aml, SSDT-LPC.aml]: pattern 4C50435F, bin not found / already patched!
+37:768  0:000  1. [Rename method UPRW to XPRW and use with SSDT-UPRW.aml to fix USB "instant wake" on sleep]: pattern 14125550, bin not found / already patched!
+37:768  0:000  2. [Rename ECDV to EC__]: pattern 45434456, patched at: [ (704) (12) (2FF) (16) (46) (337) (815) (BA) (BA) (BA) (382) (B6) (10CD) (BA) (BA) (BA) (382) (B6) (19F) (BA) (BA) (BA) (382) (B6) (90) (3A) (15) (18) (44) (1D) (1D) (1D) (2E) (17) (16) (17) (20) (1F) (17) (1F) (16) (1D) (17) (1F) (16) (1D) (17) (1F) (16) (1D) (17) (1F) (1E) (CA3) (D6D) (85) (46) (37) (16) (1A) (2C) (37) (16) (1A) (2E) (125) (82) (18) (85) (41) (31) (17) (1B) (26) (31) (17) (1B) (2E) (155) (F7) (18) (8D) (41) (31) (17) (1B) (26) (31) (17) (1B) (2E) (145) (EB) (18) (87) (41) (31) (17) (1B) (26) (31) (17) (1B) (2E) (125) (82) (97) (3F) (31) (17) (1B) (26) (31) (17) (1B) (42E) (27) (27) (27) ]
+37:768  0:000  3. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+37:768  0:000  4. [change HECI to IMEI]: pattern 48454349, bin not found / already patched!
+37:768  0:000  5. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (9A3) (16) (16) (6602) (14) (1F) (15) (22) (15) ]
+37:768  0:000  6. [change _OSI to XOSI]: pattern 5F4F5349, bin not found / already patched!
+37:768  0:000  7. [change _STA to XSTA IN GPIO]: pattern 5F535441, patched at: [ (97A) (DF) (35BD) (91C) (112A) (3E2) (47C) (45A) (3C5) (3C5) ]
+37:768  0:000  8. [change PEGP to GFX0]: pattern 50454750, bin not found / already patched!
+37:768  0:000  9. [change gprw to xprw]: disabled
+37:768  0:000  10. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+37:768  0:000  11. [ _LID TO XLID]: pattern 5F4C4944, bin not found / already patched!
+37:768  0:000  12. [BTNV TO XTNV(DELL)]: pattern 42544E56, bin not found / already patched!
+37:768  0:000  13. [BAT1 TO XBAT]: disabled
+37:768  0:000  14. [BTEV to XTEV]: pattern 42544556, bin not found / already patched!
+37:768  0:000  15. [CBAT TO XBAT]: pattern 43424154, bin not found / already patched!
+37:769  0:000    0 replacements
+37:769  0:000  === [ ACPIPatchedAML ] ====================================
+37:769  0:000  AutoMerge pass 2
+37:769  0:000  Unsorted
+37:769  0:000  Inserting SSDT-BATC.aml from EFI\CLOVER\ACPI\patched: size=338 ... Success
+37:769  0:000  Inserting SSDT-SleepKeyLID0-BTNV-dell.aml from EFI\CLOVER\ACPI\patched: size=308 ... Success
+37:769  0:000  Inserting SSDT-GPI0.aml from EFI\CLOVER\ACPI\patched: size=83 ... Success
+37:770  0:000  Inserting SSDT-PNLF.aml from EFI\CLOVER\ACPI\patched: size=1028 ... Success
+37:770  0:000  Inserting SSDT-SleepDefine.aml from EFI\CLOVER\ACPI\patched: size=95 ... Success
+37:770  0:000  Inserting SSDT-USBX.aml from EFI\CLOVER\ACPI\patched: size=185 ... Success
+37:770  0:000  Inserting SSDT-UPRW.aml from EFI\CLOVER\ACPI\patched: size=132 ... Success
+37:771  0:000  Inserting SSDT-DTPG.aml from EFI\CLOVER\ACPI\patched: size=100 ... Success
+37:771  0:000  Inserting SSDT-TB3-V8.aml from EFI\CLOVER\ACPI\patched: size=8974 ... Success
+37:771  0:000  Inserting SSDT-XOSI.aml from EFI\CLOVER\ACPI\patched: size=178 ... Success
+37:771  0:000  Inserting SSDT-EC.aml from EFI\CLOVER\ACPI\patched: size=91 ... Success
+37:771  0:000  Inserting SSDT-GPRW.aml from EFI\CLOVER\ACPI\patched: size=87 ... Success
+37:772  0:000  Inserting SSDT-Sleep_SB.LID0.aml from EFI\CLOVER\ACPI\patched: size=133 ... Success
+37:772  0:000  Inserting SSDT-UIAC.aml from EFI\CLOVER\ACPI\patched: size=527 ... Success
+37:772  0:000  Inserting SSDT-XCPM.aml from EFI\CLOVER\ACPI\patched: size=187 ... Success
+37:772  0:000  Inserting SSDT-ALS0.aml from EFI\CLOVER\ACPI\patched: size=158 ... Success
+37:773  0:000  ApicCPUNum=1
+37:773  0:000  Cleanup XSDT: count=43, length=380
+37:773  0:000  corrected XSDT count=43, length=380
+37:773  0:000  === [ RestSetup macOS ] ===================================
+37:773  0:000  EdidDiscovered size=128
+37:773  0:000  --- Discovered EDID Table size:128
+37:773  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  4D  10
+37:773  0:000  010  |  82  14  00  00  00  00  10  1B  01  04
+37:773  0:000  020  |  A5  1A  11  78  0E  DE  50  A3  54  4C
+37:773  0:000  030  |  99  26  0F  50  54  00  00  00  01  01
+37:773  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+37:773  0:000  050  |  01  01  01  01  E7  8B  40  A0  B0  80
+37:773  0:000  060  |  2C  70  30  20  3A  00  03  AD  10  00
+37:773  0:000  070  |  00  18  E7  8B  40  A0  B0  80  17  72
+37:773  0:000  080  |  30  20  3A  00  03  AD  10  00  00  18
+37:773  0:000  090  |  00  00  00  FE  00  48  57  38  59  4E
+37:773  0:000  100  |  80  4C  51  31  32  33  5A  31  00  00
+37:773  0:000  110  |  00  00  00  02  41  03  28  01  12  00
+37:773  0:000  120  |  00  0B  01  0A  20  20  00  1C
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x2,0x0)
+37:773  0:000     Add key=model valuelen=22
+37:773  0:000     Add key=hda-gfx valuelen=10
+37:773  0:000     Add key=framebuffer-unifiedmem valuelen=4
+37:773  0:000     Add key=framebuffer-patch-enable valuelen=4
+37:773  0:000     Add key=enable-lspcon-support valuelen=4
+37:773  0:000     Add key=enable-hdmi20 valuelen=4
+37:773  0:000     Add key=enable-dpcd-max-link-rate-fix valuelen=4
+37:773  0:000     Add key=dpcd-max-link-rate valuelen=4
+37:773  0:000     Add key=device_type valuelen=26
+37:773  0:000     Add key=device-id valuelen=4
+37:773  0:000     Add key=AAPL,slot-name valuelen=15
+37:773  0:000     Add key=AAPL,ig-platform-id valuelen=4
+37:773  0:000     Add key=AAPL,GfxYTile valuelen=4
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1F,0x3)
+37:773  0:000     Add key=model valuelen=26
+37:773  0:000     Add key=layout-id valuelen=4
+37:773  0:000     Add key=hda-gfx valuelen=10
+37:773  0:000     Add key=device_type valuelen=13
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1F,0x2)
+37:773  0:000     Add key=model valuelen=21
+37:773  0:000     Add key=device_type valuelen=18
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1F,0x0)
+37:773  0:000     Add key=model valuelen=4
+37:773  0:000     Add key=device_type valuelen=11
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x6)/Pci(0x0,0x0)
+37:773  0:000     Add key=model valuelen=24
+37:773  0:000     Add key=device_type valuelen=31
+37:773  0:000     Add key=AAPL,slot-name valuelen=20
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x6)
+37:773  0:000     Add key=model valuelen=42
+37:773  0:000     Add key=device_type valuelen=11
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
+37:773  0:000     Add key=model valuelen=26
+37:773  0:000     Add key=device_type valuelen=31
+37:773  0:000     Add key=AAPL,slot-name valuelen=20
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x4)
+37:773  0:000     Add key=model valuelen=42
+37:773  0:000     Add key=device_type valuelen=11
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)
+37:773  0:000     Add key=model valuelen=42
+37:773  0:000     Add key=device_type valuelen=15
+37:773  0:000     Add key=AAPL,slot-name valuelen=36
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)
+37:773  0:000     Add key=model valuelen=57
+37:773  0:000     Add key=device_type valuelen=13
+37:773  0:000     Add key=AAPL,slot-name valuelen=36
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1C,0x0)
+37:773  0:000     Add key=model valuelen=42
+37:773  0:000     Add key=device_type valuelen=11
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)
+37:773  0:000     Add key=pci-aspm-default valuelen=4
+37:773  0:000     Add key=name valuelen=8
+37:773  0:000     Add key=model valuelen=42
+37:773  0:000     Add key=device_type valuelen=16
+37:773  0:000     Add key=compatible valuelen=13
+37:773  0:000     Add key=AAPL,slot-name valuelen=5
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x16,0x3)
+37:773  0:000     Add key=model valuelen=52
+37:773  0:000     Add key=device_type valuelen=18
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x16,0x0)
+37:773  0:000     Add key=model valuelen=30
+37:773  0:000     Add key=device_type valuelen=25
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x15,0x3)
+37:773  0:000     Add key=model valuelen=45
+37:773  0:000     Add key=device_type valuelen=29
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x15,0x2)
+37:773  0:000     Add key=model valuelen=45
+37:773  0:000     Add key=device_type valuelen=29
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x15,0x1)
+37:773  0:000     Add key=model valuelen=45
+37:773  0:000     Add key=device_type valuelen=29
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x15,0x0)
+37:773  0:000     Add key=model valuelen=45
+37:773  0:000     Add key=device_type valuelen=29
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  add device: PciRoot(0x0)/Pci(0x14,0x0)
+37:773  0:000     Add key=model valuelen=41
+37:773  0:000     Add key=device_type valuelen=15
+37:773  0:000     Add key=AAPL,slot-name valuelen=16
+37:773  0:000  Intel GFX injection not set
+37:773  0:000   RCBA disabled; cannot use it
+37:773  0:000  stringlength = 8922
+37:774  0:000  CurrentMode: Width=2880 Height=1920
+37:774  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 44B2B818
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 44B2B818
+37:774  0:000  Remap smbios table type 1 guid.
+37:776  0:001  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+37:776  0:000  Extra kext: EFI\CLOVER\kexts\Other\AirportBrcmFixup.kext (v.2.0.9)
+37:789  0:013    |-- PlugIn kext: EFI\CLOVER\kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext (v.1.0)
+37:794  0:004    |-- PlugIn kext: EFI\CLOVER\kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext (v.1.0)
+37:798  0:004  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1800)
+37:813  0:014  Extra kext: EFI\CLOVER\kexts\Other\SMCLightSensor.kext (v.1.1.6)
+37:824  0:010  Extra kext: EFI\CLOVER\kexts\Other\USBPorts.kext (v.1.0)
+37:832  0:008  Extra kext: EFI\CLOVER\kexts\Other\ThunderboltReset.kext (v.1.0.0d1)
+37:841  0:009  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_CPUSensors.kext (v.1800)
+37:853  0:011  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID_Broadcom_WiFi.kext (v.1.3.15)
+37:864  0:010  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_GPUSensors.kext (v.1800)
+37:880  0:015  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID.kext (v.1.3.9)
+37:890  0:010  Extra kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext (v.2.4.2)
+37:909  0:019    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext (v.1.0.5)
+37:919  0:010    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooInput.kext.dSYM (v.1.0.5)
+37:921  0:002    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooI2CServices.kext (v.1)
+37:930  0:008    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooI2C.kext\Contents\PlugIns\VoodooGPIO.kext (v.1.1)
+37:941  0:010  Extra kext: EFI\CLOVER\kexts\Other\BrcmBluetoothInjector.kext (v.2.6.0)
+38:047  0:106  Extra kext: EFI\CLOVER\kexts\Other\VoodooI2CHID.kext (v.1)
+38:065  0:017  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_ACPISensors.kext (v.1800)
+38:085  0:020  Extra kext: EFI\CLOVER\kexts\Other\CPUFriend.kext (v.1.1.9)
+38:099  0:013  Extra kext: EFI\CLOVER\kexts\Other\CPUFriendDataProvider.kext (v.1.0.0)
+38:110  0:011  Extra kext: EFI\CLOVER\kexts\Other\RTCMemoryFixup.kext (v.1.0.6)
+38:120  0:010  Extra kext: EFI\CLOVER\kexts\Other\SMCProcessor.kext (v.1.1.6)
+38:132  0:011  Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext (v.1.0.0d2)
+38:141  0:008  Extra kext: EFI\CLOVER\kexts\Other\SMCBatteryManager.kext (v.1.1.6)
+38:155  0:013  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.2)
+38:196  0:040  Extra kext: EFI\CLOVER\kexts\Other\SMCSuperIO.kext (v.1.1.6)
+38:208  0:012  Extra kext: EFI\CLOVER\kexts\Other\SMCDellSensors.kext (v.1.1.6)
+38:220  0:012  Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.2.1d1)
+38:230  0:009  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_LPCSensors.kext (v.1800)
+38:488  0:257  Extra kext: EFI\CLOVER\kexts\Other\SATA-100-series-unsupported.kext (v.0.5.1)
+38:492  0:004  Extra kext: EFI\CLOVER\kexts\Other\BrcmPatchRAM3.kext (v.2.6.0)
+38:671  0:179  Extra kext: EFI\CLOVER\kexts\Other\IOElectrify_10.15sdk.kext (v.1.0.0)
+38:684  0:012  Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.4.0)
+39:449  0:765  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_SMMSensors.kext (v.1800)
+39:467  0:017  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.6.0.0)
+39:492  0:025    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.6.0.0)
+39:577  0:085    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.6.0.0)
+39:601  0:024  Extra kext: EFI\CLOVER\kexts\Other\NoTouchID.kext (v.1.0.1)
+39:614  0:012  Extra kext: EFI\CLOVER\kexts\Other\HibernationFixup.kext (v.1.3.5)
+39:628  0:014  Extra kext: EFI\CLOVER\kexts\Other\BrcmFirmwareData.kext (v.2.6.0)
+39:646  0:018  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.3.8)
+39:660  0:014  Extra kext: EFI\CLOVER\kexts\Other\ACPIBatteryManager.kext (v.1.81.4)
+39:681  0:020  Extra kext: EFI\CLOVER\kexts\Other\FakePCIID_Intel_HD_Graphics.kext (v.1.3.9)
+39:705  0:024  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+39:710  0:004  SetStartupDiskVolume:
+39:710  0:000    * Volume: 'Untitled'
+39:710  0:000    * LoaderPath: '<null string>'
+39:710  0:000    * DevPath: Untitled
+39:710  0:000    * GUID = C9B189A5-6DD3-4022-9F13-2463025923F3
+39:710  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>C9B189A5-6DD3-4022-9F13-2463025923F3</string></dict></dict></dict></array>
+39:710  0:000  SetScreenResolution: 2880x1920 - already set
+39:710  0:000  Custom boot is disabled
+39:710  0:000  Closing log
